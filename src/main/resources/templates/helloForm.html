@@ -5,10 +5,59 @@
     <title>Hello, Spring</title>
 </head>
 <body>
-    <h1>Name Form2</h1>
-    <form method="post">
-        <input type="text" name="name">
-        <button type="submit">Say Hello</button>
-    </form>
+        <div class="prim-background">Primary BGND
+            <nav>
+                <label class="logo"><img src="https://www.firstcomicsnews.com/wp-content/uploads/2019/06/the_comic_shop_logo-600x257.png" width="300"></label>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Our Team</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="foreground">FGND</div>
+        <div class="background-splitter">Line</div>
+        <div class="sec-background">Secondary BGND
+            <div class="page-content">Content
+                <!-- Login Form -->
+                <h1 class="bottom">Name Form2</h1>
+                <form method="post">
+                    <input type="text" name="name">
+                    <button type="submit">Say Hello</button>
+                </form>
+                <div>
+                    <p th:each="Customer : ${Customers}"><span th:text="${Customer.first_name}"></span></p>
+                </div>
+            </div>
+
+        </div>
+
+
+    <!--
+        <article class="comic">
+            <div class="panel">
+                <p class="text top-left">Suddenly...</p>
+                <p class="text bottom-right">...something amazing happened</p>
+            </div>
+            <div class="panel">
+                <p class="text top-left">Try resizing...</p>
+                <p class="text bottom-right">...it's responsive</p>
+            </div>
+            <div class="panel">
+                <p class="speech">A speech bubble</p>
+            </div>
+            <div class="panel"></div>
+            <div class="panel"></div>
+            <div class="panel"></div>
+            <div class="panel"></div>
+            <div class="panel"></div>
+            <div class="panel">
+                <p class="text bottom-right">THE END</p>
+            </div>
+        </article>
+    -->
+    <!-- Listing information of customers from DB -->
+
 </body>
 </html>
