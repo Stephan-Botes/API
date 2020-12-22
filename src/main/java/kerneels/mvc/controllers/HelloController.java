@@ -1,6 +1,8 @@
 package kerneels.mvc.controllers;
 
 import com.sun.corba.se.impl.logging.POASystemException;
+import kerneels.mvc.repository.CustomerRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,9 +13,12 @@ import javax.servlet.http.HttpServletRequest;
 
 @Controller
 public class HelloController {
+    @Autowired
+    private CustomerRepository customerRepository;
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
-    public String helloForm() {
+    public String helloForm(Model model) { // Model view controller
+        model.addAttribute("Customers", customerRepository.findAll());
         return "helloForm";
     }
 
