@@ -1,242 +1,242 @@
-*{
-    color: white;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
+/**{*/
+/*    color: white;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    text-decoration: none;*/
+/*    list-style: none;*/
+/*    box-sizing: border-box;*/
+/*}*/
 
-html, body {
-    margin: auto 0;
-    padding:0;
-}
+/*html, body {*/
+/*    margin: auto 0;*/
+/*    padding:0;*/
+/*}*/
 
-body {
-    font-family:'Comic Sans', cursive;
-    height: 200%;
-}
+/*body {*/
+/*    font-family:'Comic Sans', cursive;*/
+/*    height: 200%;*/
+/*}*/
 
-.zone {
-    cursor: pointer;
-    color: #FFF;
-    font-size: 2em;
-    /*border-radius: 4px;*/
-    /*border: 1px solid #bbb;*/
-    transition: all 0.3s linear;
-}
-nav {
-    /*background-color: green;*/
-    display: flex;
-    list-style: none;
-    font-size: 1.2em;
-    margin: 0;
-}
+/*.zone {*/
+/*    cursor: pointer;*/
+/*    color: #FFF;*/
+/*    font-size: 2em;*/
+/*    !*border-radius: 4px;*!*/
+/*    !*border: 1px solid #bbb;*!*/
+/*    transition: all 0.3s linear;*/
+/*}*/
+/*nav {*/
+/*    !*background-color: green;*!*/
+/*    display: flex;*/
+/*    list-style: none;*/
+/*    font-size: 1.2em;*/
+/*    margin: 0;*/
+/*}*/
 
-.logo {
-    position: absolute;
-    left: -1%;
-}
+/*.logo {*/
+/*    position: absolute;*/
+/*    left: -1%;*/
+/*}*/
 
-nav ul {
-    float: right;
-    margin-right: 20px;
-    margin-left: auto;
-    line-height: 2.3em;
-}
+/*nav ul {*/
+/*    float: right;*/
+/*    margin-right: 20px;*/
+/*    margin-left: auto;*/
+/*    line-height: 2.3em;*/
+/*}*/
 
-nav ul li {
-    display: inline-block;
-    margin: 0 5px;
-}
+/*nav ul li {*/
+/*    display: inline-block;*/
+/*    margin: 0 5px;*/
+/*}*/
 
-.prim-background {
-    top: 0;
-    width: 100%;
-    height: 55vh;
-    /*position: absolute;*/
-    background-image: url("https://thumbs.dreamstime.com/b/comic-book-page-horizontal-blue-background-comic-book-page-horizontal-blue-background-dark-rays-halftone-radial-humor-108187711.jpg");
-    /* Full height */
-    /*height: 100%;*/
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/*.prim-background {*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*    height: 55vh;*/
+/*    !*position: absolute;*!*/
+/*    background-image: url("https://thumbs.dreamstime.com/b/comic-book-page-horizontal-blue-background-comic-book-page-horizontal-blue-background-dark-rays-halftone-radial-humor-108187711.jpg");*/
+/*    !* Full height *!*/
+/*    !*height: 100%;*!*/
+/*    !* Center and scale the image nicely *!*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
 
-.background-splitter {
-    width: 100%;
-    height: 2vh;
-    background-color: black;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/*.background-splitter {*/
+/*    width: 100%;*/
+/*    height: 2vh;*/
+/*    background-color: black;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
 
-.sec-background {
-    width: 100%;
-    height: 100vh;
-    /*background-image: url("https://w7.pngwing.com/pngs/506/369/png-transparent-textile-printing-halftone-yellow-gradient-background-dot-size-yellow-and-blue-ombre-angle-electronics-photography.png");*/
-    background-image: url("https://static.vecteezy.com/system/resources/previews/000/581/217/non_2x/abstract-dark-blue-background-with-halftone-pattern-light-blue-texture-creative-cover-design-template-vector.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/*.sec-background {*/
+/*    width: 100%;*/
+/*    height: 100vh;*/
+/*    !*background-image: url("https://w7.pngwing.com/pngs/506/369/png-transparent-textile-printing-halftone-yellow-gradient-background-dot-size-yellow-and-blue-ombre-angle-electronics-photography.png");*!*/
+/*    background-image: url("https://static.vecteezy.com/system/resources/previews/000/581/217/non_2x/abstract-dark-blue-background-with-halftone-pattern-light-blue-texture-creative-cover-design-template-vector.jpg");*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
 
-.foreground {
-    position: absolute;
-    top: 20vh;
-    width: 70vw;
-    height: 100%;
-    margin-left: 15vw;
-    background-image: url("https://thumbs.dreamstime.com/b/inside-interior-comic-book-store-johannesburg-south-africa-july-137053182.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-}
+/*.foreground {*/
+/*    position: absolute;*/
+/*    top: 20vh;*/
+/*    width: 70vw;*/
+/*    height: 100%;*/
+/*    margin-left: 15vw;*/
+/*    background-image: url("https://thumbs.dreamstime.com/b/inside-interior-comic-book-store-johannesburg-south-africa-july-137053182.jpg");*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: 100% auto;*/
+/*}*/
 
-.page-content {
-    position: absolute;
-    top: 120vh;
-}
+/*.page-content {*/
+/*    position: absolute;*/
+/*    top: 120vh;*/
+/*}*/
 
-/* All text white + no underline for navigation links */
-a {
-    /*color: #f5f5f6;*/
-    color: white;
-    text-decoration: none;
-}
+/*!* All text white + no underline for navigation links *!*/
+/*a {*/
+/*    !*color: #f5f5f6;*!*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*}*/
 
-/* Navigation panel li spacing */
-li {
-    padding: 5px;
-}
+/*!* Navigation panel li spacing *!*/
+/*li {*/
+/*    padding: 5px;*/
+/*}*/
 
-/* Comic book template imports */
-.comic {
-    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-    display: -ms-flexbox;  /* TWEENER - IE 10 */
-    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
-    flex-wrap:wrap;
-    padding:1vmin;
-}
+/*!* Comic book template imports *!*/
+/*.comic {*/
+/*    display: -webkit-box;  !* OLD - iOS 6-, Safari 3.1-6, BB7 *!*/
+/*    display: -ms-flexbox;  !* TWEENER - IE 10 *!*/
+/*    display: -webkit-flex; !* NEW - Safari 6.1+. iOS 7.1+, BB10 *!*/
+/*    display: flex;         !* NEW, Spec - Firefox, Chrome, Opera *!*/
+/*    flex-wrap:wrap;*/
+/*    padding:1vmin;*/
+/*}*/
 
-.panel {
-    background-color:#fff;
-    border:solid 2px #000;
-    box-shadow:0 6px 6px -6px #000;
-    display:inline-block;
-    flex:1 1;
-    height:200px;
-    margin:1vmin;
-    overflow:hidden;
-    position:relative;
-}
+/*.panel {*/
+/*    background-color:#fff;*/
+/*    border:solid 2px #000;*/
+/*    box-shadow:0 6px 6px -6px #000;*/
+/*    display:inline-block;*/
+/*    flex:1 1;*/
+/*    height:200px;*/
+/*    margin:1vmin;*/
+/*    overflow:hidden;*/
+/*    position:relative;*/
+/*}*/
 
-.text {
-    background-color:#fff;
-    border:solid 2px #000;
-    margin:0;
-    padding:3px 10px;
-}
+/*.text {*/
+/*    background-color:#fff;*/
+/*    border:solid 2px #000;*/
+/*    margin:0;*/
+/*    padding:3px 10px;*/
+/*}*/
 
-.top-left {
-    left:-6px;
-    position:absolute;
-    top:-2px;
-    -ms-transform:skew(-15deg);
-    transform:skew(-15deg);
-}
+/*.top-left {*/
+/*    left:-6px;*/
+/*    position:absolute;*/
+/*    top:-2px;*/
+/*    -ms-transform:skew(-15deg);*/
+/*    transform:skew(-15deg);*/
+/*}*/
 
-.bottom-right {
-    bottom:-2px;
-    position:absolute;
-    right:-6px;
-    -ms-transform:skew(-15deg);
-    transform:skew(-15deg);
-}
+/*.bottom-right {*/
+/*    bottom:-2px;*/
+/*    position:absolute;*/
+/*    right:-6px;*/
+/*    -ms-transform:skew(-15deg);*/
+/*    transform:skew(-15deg);*/
+/*}*/
 
-.speech {
-    background-color:#fff;
-    border:solid 2px #000;
-    border-radius:12px;
-    display:inline-block;
-    margin:.5em;
-    padding:.5em 1em;
-    position:relative;
-}
+/*.speech {*/
+/*    background-color:#fff;*/
+/*    border:solid 2px #000;*/
+/*    border-radius:12px;*/
+/*    display:inline-block;*/
+/*    margin:.5em;*/
+/*    padding:.5em 1em;*/
+/*    position:relative;*/
+/*}*/
 
-.speech:before {
-    border:solid 12px transparent;
-    border-left:solid 12px #000;
-    border-top:solid 12px #000;
-    bottom:-24px;
-    content:"";
-    height:0;
-    left:24px;
-    position:absolute;
-    -ms-transform:skew(-15deg);
-    transform:skew(-15deg);
-    width:0;
-}
+/*.speech:before {*/
+/*    border:solid 12px transparent;*/
+/*    border-left:solid 12px #000;*/
+/*    border-top:solid 12px #000;*/
+/*    bottom:-24px;*/
+/*    content:"";*/
+/*    height:0;*/
+/*    left:24px;*/
+/*    position:absolute;*/
+/*    -ms-transform:skew(-15deg);*/
+/*    transform:skew(-15deg);*/
+/*    width:0;*/
+/*}*/
 
-.speech:after {
-    border:solid 10px transparent;
-    border-left:solid 10px #fff;
-    border-top:solid 10px #fff;
-    bottom:-19px;
-    content:"";
-    height:0;
-    left:27px;
-    position:absolute;
-    -mis-transform:skew(-15deg);
-    transform:skew(-15deg);
-    width:0;
-}
+/*.speech:after {*/
+/*    border:solid 10px transparent;*/
+/*    border-left:solid 10px #fff;*/
+/*    border-top:solid 10px #fff;*/
+/*    bottom:-19px;*/
+/*    content:"";*/
+/*    height:0;*/
+/*    left:27px;*/
+/*    position:absolute;*/
+/*    -mis-transform:skew(-15deg);*/
+/*    transform:skew(-15deg);*/
+/*    width:0;*/
+/*}*/
 
-.panel:nth-child(1) {
-    flex-basis: 400px;
-}
-.panel:nth-child(2) {
-    flex-basis: 200px;
-}
-.panel:nth-child(3) {
-    flex-basis: 200px;
-}
-.panel:nth-child(4) {
-    flex-basis: 200px;
-}
-.panel:nth-child(5) {
-    flex-basis: 200px;
-}
-.panel:nth-child(6) {
-    flex-basis: 200px;
-}
-.panel:nth-child(7) {
-    flex-basis: 400px;
-}
-.panel:nth-child(8) {
-    flex-basis: 200px;
-}
-.panel:nth-child(9) {
-    flex-basis: 200px;
-}
+/*.panel:nth-child(1) {*/
+/*    flex-basis: 400px;*/
+/*}*/
+/*.panel:nth-child(2) {*/
+/*    flex-basis: 200px;*/
+/*}*/
+/*.panel:nth-child(3) {*/
+/*    flex-basis: 200px;*/
+/*}*/
+/*.panel:nth-child(4) {*/
+/*    flex-basis: 200px;*/
+/*}*/
+/*.panel:nth-child(5) {*/
+/*    flex-basis: 200px;*/
+/*}*/
+/*.panel:nth-child(6) {*/
+/*    flex-basis: 200px;*/
+/*}*/
+/*.panel:nth-child(7) {*/
+/*    flex-basis: 400px;*/
+/*}*/
+/*.panel:nth-child(8) {*/
+/*    flex-basis: 200px;*/
+/*}*/
+/*.panel:nth-child(9) {*/
+/*    flex-basis: 200px;*/
+/*}*/
 
-/* background colours */
+/*!* background colours *!*/
 
-.panel:nth-child(4n+1) {
-    background-image:radial-gradient(circle, yellow, orange);
-}
+/*.panel:nth-child(4n+1) {*/
+/*    background-image:radial-gradient(circle, yellow, orange);*/
+/*}*/
 
-.panel:nth-child(4n+2) {
-    background-image:radial-gradient(circle, lightblue, deepskyblue);
-}
+/*.panel:nth-child(4n+2) {*/
+/*    background-image:radial-gradient(circle, lightblue, deepskyblue);*/
+/*}*/
 
-.panel:nth-child(4n+3) {
-    background-image:radial-gradient(circle, palegreen, yellowgreen);
-}
+/*.panel:nth-child(4n+3) {*/
+/*    background-image:radial-gradient(circle, palegreen, yellowgreen);*/
+/*}*/
 
-.panel:nth-child(4n+4) {
-    background-image:radial-gradient(circle, lightcoral, tomato);
-}
+/*.panel:nth-child(4n+4) {*/
+/*    background-image:radial-gradient(circle, lightcoral, tomato);*/
+/*}*/
