@@ -1,0 +1,58 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template/shop-homepage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.primary-headline h2{
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#carouselExampleIndicators {
+  min-height: 270px;
+  max-height: 270px;
+  /*height: 270px;*/
+}
+
+#category-dropdown {
+  color: #007bff;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #carouselExampleIndicators {
+    min-height: 176.16px;
+    max-height: 176.16px;
+  }
+}
+
+/*!* Small devices (portrait tablets and large phones, 600px and up) *!*/
+/*@media only screen and (min-width: 600px) {*/
+/*  #carouselExampleIndicators {*/
+/*    min-height: 176.16px;*/
+/*    max-height: 176.16px;*/
+/*  }*/
+/*}*/
+
+/*!* Medium devices (landscape tablets, 768px and up) *!*/
+/*@media only screen and (min-width: 768px) {*/
+
+/*}*/
+
+/*!* Large devices (laptops/desktops, 992px and up) *!*/
+/*@media only screen and (min-width: 992px) {*/
+
+/*}*/
+
+/*!* Extra large devices (large laptops and desktops, 1200px and up) *!*/
+/*@media only screen and (min-width: 1200px) {*/
+
+/*}*/
